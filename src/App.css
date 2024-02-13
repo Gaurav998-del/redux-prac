@@ -28,13 +28,23 @@
   color: #61dafb;
 }
 /*  */
-.btn-wrapper button {
+.addButton {
   background-color: red;
   border: 0px;
   padding: 10px;
   border-radius: 4px;
   color: #fff;
   box-shadow: #333 0px 1px 5px;
+  margin:10px;
+}
+.removeButton {
+  background-color: rgb(191, 0, 255);
+  border: 0px;
+  padding: 10px;
+  border-radius: 4px;
+  color: #fff;
+  box-shadow: #333 0px 1px 5px;
+  margin:-5px;
 }
 .img-wrapper img {
   width: 89px;
@@ -62,7 +72,7 @@
 .cart-count{
   
     position: absolute;
-    right: 10px;
+    right: 15px;
     top: 12px;
     z-index: 1;
     background-color: red;
